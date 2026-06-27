@@ -41,7 +41,9 @@
 }
 
 /* About section */
-.aboutWrapper {}
+.aboutWrapper {
+  background: #F2EDE4;
+}
 
 .about {
   display: grid;
@@ -224,6 +226,7 @@
 /* Gallery section */
 .gallerySpacer {
   height: 30px;
+  background: #F2EDE4;
 }
 
 .galleryWrapper {
