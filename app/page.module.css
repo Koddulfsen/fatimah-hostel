@@ -41,6 +41,10 @@
 }
 
 /* About section */
+.aboutWrapper {
+  background: #E8DCC8;
+}
+
 .about {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -84,11 +88,12 @@
   justify-content: center;
 }
 
-.aboutText h2 {
+.aboutText h2, .aboutH2 {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 12px;
 }
+
 
 .aboutText p {
   font-size: 0.95rem;
@@ -221,6 +226,7 @@
 /* Gallery section */
 .gallerySpacer {
   height: 30px;
+  background: #E8DCC8;
 }
 
 .galleryWrapper {
