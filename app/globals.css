@@ -1,14 +1,8 @@
 :root {
-  --background: #ffffff;
+  --background: #FAFAF7;
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 html {
   height: 100%;
@@ -22,8 +16,6 @@ body {
 
 body {
   min-height: 100%;
-  display: flex;
-  flex-direction: column;
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
@@ -37,13 +29,17 @@ body {
   margin: 0;
 }
 
+h1, h2, h3 {
+  font-family: var(--font-heading, inherit);
+}
+
+p, li, a {
+  font-family: var(--font-body, inherit);
+  font-weight: 300;
+}
+
 a {
   color: inherit;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
