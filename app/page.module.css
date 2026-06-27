@@ -206,7 +206,9 @@
 }
 
 .whatsapp {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   padding: 12px 28px;
   background: #25D366;
   color: white;
